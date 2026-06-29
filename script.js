@@ -9,7 +9,7 @@ function palindrome(str){
 	while(left < right){
 
 		if(string[left] !== string[right] ){
-			return flase
+			return false
 		}
 		left++
 		right--
